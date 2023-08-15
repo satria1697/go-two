@@ -3,12 +3,13 @@ package usecase
 import (
 	"errors"
 	"go-two/common"
+	"go-two/v1/hello/domain"
 )
 
 type HelloUseCase struct {
 }
 
-func NewHelloUseCase() HelloUseCase {
+func NewHelloUseCase() domain.HandlerUseCaseInterface {
 	return HelloUseCase{}
 }
 

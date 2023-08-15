@@ -1,3 +1,4 @@
 package common
 
-const ValidationError = "Wrong validation"
+const ValidationError = "wrong-validation"
+const NotFoundError = "not-found"
